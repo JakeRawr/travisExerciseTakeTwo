@@ -1,0 +1,22 @@
+{
+  "name": "travisExercise",
+  "version": "1.0.0",
+  "description": "This is a Travis CI exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/grunt-cli/bin/grunt test"
+  },
+  "author": "Tsung Han (Jake)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "chai-http": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-simple-mocha": "^0.4.0"
+  },
+  "dependencies": {
+    "express": "^4.10.1"
+  }
+}
